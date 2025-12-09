@@ -28,7 +28,7 @@ const LifeCycleChart = () => {
   return(
     <div className='bg-white rounded-md'>
       <h1 className='mx-5 mt-2 text-xl font-semibold'>Employee Lifecycle</h1>
-      <Chart type="bar" series={series} options={options} height={350} width={500} />
+      <Chart type="bar" series={series} options={options}  />
     </div>
   );
 };

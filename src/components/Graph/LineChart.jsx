@@ -20,7 +20,7 @@ const LineChart = () => {
     return(
         <div className='bg-white rounded-md'>
             <h1 className='mx-5 mt-2 text-xl font-semibold'>Late Coming Trend</h1>
-            <Chart type="line" options={options} series={series} height={350} width={500} />
+            <Chart type="line" options={options} series={series}  />
         </div>
     )
 };

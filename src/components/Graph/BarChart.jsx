@@ -21,7 +21,7 @@ const BarChart = () => {
   return(
     <div className='bg-white rounded-md'>
         <h1 className='mx-5 mt-2 text-xl font-semibold'>Overtime vs Undertime</h1>
-        <Chart type="bar" options={options} series={series} height={350} width={500} />
+        <Chart type="bar" options={options} series={series} />
     </div>
   )
 };

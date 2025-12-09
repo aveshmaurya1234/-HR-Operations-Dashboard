@@ -46,7 +46,7 @@ const RadialBar = () => {
   return (
     <div className='bg-white rounded-md'>
         <h1 className='mx-5 mt-2 text-xl font-semibold'>Attrition Trend</h1>
-        <Chart options={options} series={[70]} type="radialBar" width={500} height={350}/>
+        <Chart options={options} series={[70]} type="radialBar" />
     </div>
   )
 }
